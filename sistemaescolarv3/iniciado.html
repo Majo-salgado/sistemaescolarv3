@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Escolar</title>
+    <link rel="stylesheet" href="node_modules\bulma\css\bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p class="estilo-titulo has-text-danger" >Sistema Escolar</p>
+    <form action="insertar.php" method="post">
+        <p class="estilo-subtitulo"><label for="calificacion">Calificación:</label></p>
+        <center><p class="estilo-tex"><input id="calificacion" class="input is-rounded" type="text" name="calificacion" placeholder="Calificacion"></p></center>
+        <br>
+        <br>
+        
+        <center><button class="button is-primary is-rounded" type="submit">Guardar</button></center>
+        <br>
+        <br>
+        <br>
+
+        
+    </form>
+    <form action="consultar.php" method="GET">
+        <center><button class="button is-primary is-rounded" type="submit">CONSULTAR</button></center>
+
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.estilo-tex{
+    width: 200px;
+}
+
+.estilo-titulo{
+    text-align: center;
+    font-size: 100px;
+}
+
+.estilo-subtitulo{
+    text-align: center;
+    font-size: 30px;
+    color:blue;
+}
